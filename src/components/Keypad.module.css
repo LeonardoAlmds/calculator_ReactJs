@@ -1,0 +1,39 @@
+.keypad {
+  margin-top: 70px;
+  display: flex;
+  position: relative;
+}
+
+.keypad button {
+  font-size: 18px;
+  height: 60px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.operators {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ns {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 120px;
+}
+
+.ns2 {
+  position: absolute;
+  top: -70px;
+  left: 100%;
+  transform: translateX(-100%);
+  width: 25%;
+}

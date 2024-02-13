@@ -1,0 +1,8 @@
+.display {
+  position: absolute;
+  width: 72%;
+  height: 59px;
+  top: -70px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 10px;
+}
